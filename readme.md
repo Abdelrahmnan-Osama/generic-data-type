@@ -1,4 +1,4 @@
-# Polymorphic Numeric Type System in C++
+# Generic Numeric Type System in C++
 
 ## Overview
 
