@@ -1,4 +1,4 @@
-# 🧮 Polymorphic Numeric Type System in C++
+# Polymorphic Numeric Type System in C++
 
 ## Overview
 
@@ -6,37 +6,37 @@ This project demonstrates how to build a polymorphic numeric type system in C++ 
 
 ## Features
 
-- 🔢 **Support for Multiple Numeric Types**: 
+- **Support for Multiple Numeric Types**: 
   - `int`, `short`, `long`
   - `float`, `double`
   - `char`
   - `unsigned int`, `unsigned short`, `unsigned long`
   - `std::complex<double>`
 
-- ➕ **Arithmetic Operations**:
+- **Arithmetic Operations**:
   - Addition
   - Subtraction
   - Multiplication
   - Division  
   > All operations return a new `Numeric*` result without modifying the original object.
 
-- ⚖️ **Comparison Operations**:
+- **Comparison Operations**:
   - `lessThan`, `greaterThan`, and `isEqualTo`
 
-- 🔁 **Runtime Polymorphism**:
+- **Runtime Polymorphism**:
   - Achieved using a non-template base class and template-derived classes
   - Stored in `std::vector<Numeric*>`
 
-- 🔄 **Dynamic I/O**:
+- **Dynamic I/O**:
   - `read()` and `write()` methods for interactive input/output
   - Type-specific `toString()` representation
 
-- 🔀 **Sorting**:
+- **Sorting**:
   - Sorts a mixed-type numeric vector based on comparison logic
 
 ---
 
-## 🔧 Project Structure
+## Project Structure
 
 - `Numeric` (abstract base class):
   - Defines the interface for all numeric types
@@ -52,7 +52,7 @@ This project demonstrates how to build a polymorphic numeric type system in C++ 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 
