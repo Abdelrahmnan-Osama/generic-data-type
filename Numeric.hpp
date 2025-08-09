@@ -1,6 +1,6 @@
 #include <iostream>
 #include <complex>
-#include <exception>
+#include <stdexcept>
 #include <vector>
 #include <algorithm>
 using namespace std;
